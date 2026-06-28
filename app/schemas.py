@@ -6,5 +6,5 @@ class WeightEntryCreate(BaseModel):
 
 
 class WeightEntryResponse(BaseModel):
-    message: str
+    id: int
     weight_kg: float
